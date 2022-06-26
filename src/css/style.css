@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, ul, li, span, p, div, a {
 }
 
 .header {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .header .top-header .flex-wrap {
   display: flex;
@@ -70,4 +70,87 @@ h1, h2, h3, h4, h5, h6, ul, li, span, p, div, a {
   padding: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.header .down-header .flex-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .down-header .flex-wrap .left {
+  width: 60%;
+}
+.header .down-header .flex-wrap .left .best {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 65px;
+  width: 70%;
+  letter-spacing: 2px;
+  line-height: 120%;
+  padding-bottom: 40px;
+}
+.header .down-header .flex-wrap .left .best span {
+  color: #e71d36;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 65px;
+}
+.header .down-header .flex-wrap .left .middle {
+  font-size: 26px;
+  padding-bottom: 40px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #011627;
+}
+.header .down-header .flex-wrap .left .small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #011627;
+  width: 60%;
+  padding-bottom: 71px;
+}
+.header .down-header .flex-wrap .left .button-class {
+  display: flex;
+  align-items: center;
+}
+.header .down-header .flex-wrap .left .button-class .first {
+  padding-right: 33px;
+}
+.header .down-header .flex-wrap .left .button-class .first a {
+  background-color: #e71d36;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 48px;
+  padding: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header .down-header .flex-wrap .left .button-class .second a {
+  display: flex;
+  align-items: center;
+}
+.header .down-header .flex-wrap .left .button-class .second a img {
+  padding-right: 12px;
+}
+.header .down-header .flex-wrap .left .button-class .second a p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #E71D36;
+}
+.header .down-header .flex-wrap .right {
+  width: 40%;
+}
+.header .down-header .flex-wrap .right img {
+  width: 100%;
 }
